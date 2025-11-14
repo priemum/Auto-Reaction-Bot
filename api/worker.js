@@ -9,7 +9,7 @@ import { splitEmojis, returnHTML, getChatIds } from "./helper.js";
 import { onUpdate } from './bot-handler.js';
 
 // Cache for parsed environment variables to avoid repeated parsing
-let configCache = null;
+let configCache = null;   
 
 function getConfig(env) {
     // Parse environment variables once and cache them
